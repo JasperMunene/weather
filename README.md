@@ -1,7 +1,9 @@
+
+
 ```markdown
 # Weather App
 
-A weather application built with Next.js and TypeScript, utilizing the OpenWeatherMap API to provide current weather conditions, hourly forecasts, and weather maps for searched cities.Built by <a href='https://github.com/JasperMunene'>Jasper<a>
+A weather application built with Next.js and TypeScript, utilizing the OpenWeatherMap API to provide current weather conditions, hourly forecasts, and weather maps for searched cities. Built by [Jasper](https://github.com/JasperMunene).
 
 ## Table of Contents
 
@@ -17,7 +19,7 @@ A weather application built with Next.js and TypeScript, utilizing the OpenWeath
 ## Features
 
 - Search for weather conditions by city
-- Display current weather, including temperature, humidity, wind speed, and visibility
+- Display current weather, including temperature, humidity, wind speed, visibility, and country
 - Show hourly weather forecast
 - Interactive weather map using Leaflet
 
@@ -41,22 +43,22 @@ A weather application built with Next.js and TypeScript, utilizing the OpenWeath
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/JasperMunene/weather.git
-cd weather
-```
+    ```bash
+    git clone https://github.com/JasperMunene/weather.git
+    cd weather
+    ```
 
 2. Install dependencies:
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 3. Create a `.env.local` file in the root directory and add your OpenWeatherMap API key:
 
-```plaintext
-NEXT_PUBLIC_OPENWEATHERMAP_API=your_api_key_here
-```
+    ```plaintext
+    NEXT_PUBLIC_OPENWEATHERMAP_API=your_api_key_here
+    ```
 
 ### Running the Development Server
 
@@ -70,7 +72,7 @@ Open your browser and navigate to `http://localhost:3000`.
 
 ## Environment Variables
 
-The following environment variables need to be set in your `.env.local` file:
+The following environment variable needs to be set in your `.env.local` file:
 
 - `NEXT_PUBLIC_OPENWEATHERMAP_API`: Your OpenWeatherMap API key
 
@@ -120,11 +122,11 @@ weather-app/
 
 Contributions are welcome! Please follow these steps to contribute:
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Create a new Pull Request
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Create a new Pull Request.
 
 ## License
 

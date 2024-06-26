@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Weather App
 
 A weather application built with Next.js and TypeScript, utilizing the OpenWeatherMap API to provide current weather conditions, hourly forecasts, and weather maps for searched cities. Built by [Jasper](https://github.com/JasperMunene).
